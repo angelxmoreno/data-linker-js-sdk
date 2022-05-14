@@ -1,0 +1,30 @@
+{
+    "name": "data-linker-js-sdk",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Angel S. Moreno <angelxmoreno@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "tsc": "tsc  -p .",
+        "clean": "rimraf build/*",
+        "build": "yarn clean && yarn tsc",
+        "lint": "yarn eslint . --ext json,js,ts --cache",
+        "lint:fix": "yarn eslint . --ext json,js,ts --fix --cache"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.33",
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.6.2",
+        "rimraf": "^3.0.2",
+        "ts-node": "^10.7.0",
+        "tslib": "^2.4.0",
+        "typescript": "^4.6.4"
+    },
+    "dependencies": {
+        "axios": "^0.27.2"
+    }
+}
