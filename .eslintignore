@@ -1,3 +1,5 @@
-lib
 node_modules
 .eslintcache
+lib
+.nyc_output
+coverage
