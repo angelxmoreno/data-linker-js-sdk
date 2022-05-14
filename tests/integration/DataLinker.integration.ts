@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import 'mocha';
-import { DataLinker } from '../../lib/DataLinker';
-import { PlainTextPayload } from '../../lib/types';
+import { PlainTextPayload } from '../../src/types';
+import { DataLinker } from '../../src/DataLinker';
 
 const apiKey = '5Xj9qmPSVmsHWJ7XhPArzmhnJ3ZAYAYG';
 const baseUrl = 'http://localhost:4000';

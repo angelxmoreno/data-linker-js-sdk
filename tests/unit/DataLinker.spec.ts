@@ -1,9 +1,9 @@
 import { expect } from 'chai';
 import 'mocha';
-import { DataLinker } from '../../lib/DataLinker';
 import axios from 'axios';
-import { Document, PlainTextPayload } from '../../lib/types';
 import moxios = require('moxios');
+import { Document, PlainTextPayload } from '../../src/types';
+import { DataLinker } from '../../src/DataLinker';
 
 const apiKey = 'some-api-key';
 const baseUrl = 'https://example.com/api/v1';
